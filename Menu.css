@@ -1,0 +1,58 @@
+@charset "utf-8"
+/* CSS Document */
+
+*{
+			margin:0px;
+			padding:0px;
+		}
+
+		#header {
+			margin:auto;
+			width:700px;
+			font-family:Algerian;
+		}
+
+		ul, ol {
+			list-style:none;
+		}
+
+		.nav > li {
+			float:left;
+		}
+.nav li a {
+	background-color:#ffd700;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+	box-shadow: #CCC -0.9em 0.7em 4em,
+					#CCC 0.9em -0.7em 4em,
+					#CCC 0.9em 0.7em 4em,
+					#CCC -0.9em -0.7em 4em;
+	-webkit-transition:-webkit-transform 2.9s ease-in-out 0.2s;
+}
+
+.nav li a:hover{
+	background-color:#434343;
+	color:red;
+	font-size:35px;
+	-webkit-transform:scale(1.2);
+	alignment-adjust:central;
+	-webkit-transform:rotate(720deg) scale(2.2);
+	cursor:wait;}
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul li {
+	right:-140px;
+	top:0px;
+}

@@ -1,0 +1,90 @@
+@charset "utf-8";
+/*CSS Document */
+
+body{
+	background-image:url(https://gifer.com/i/7C54.gif);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+
+}
+h1{ font-family:algerian;
+	font-style:70px;
+	color:#F00;
+	padding:50px 0px;
+	text-align: center;
+
+}
+h3{ font-family:algerian;
+	font-style:70px;
+	color:green;
+	padding:50px 0px;
+	text-align: center;
+}
+img{
+	border-color:#fff;
+	border-radius:50%;
+	border-style:groove;
+	border-width:15px;
+	box-shadow:#58FA58 -0.9em 0.7em 2em,
+		  #FF3 0.9em -0.7em 2em,
+		  #FF00FF 0.9em 0.7em 2em,
+		  #00FFFF -0.9em -0.7em 2em;
+}
+h3{
+	font-family:castellar;
+	font-style:oblique;
+	font-size:40px;
+	color:#FF0;
+	padding: 50px 0px;
+	text-shadow:#FF00FF -0.5em 0.3em 0.7em.
+		   #58FA58 0.5em -0.3em 0.7em,
+		   #FF00FF 0.5em 0.3em 0.7em,
+		   #58FA58 -0.5em -0.3em 0.5em;
+}
+section{
+  width:91%;
+  border-top:10px dashed #999;
+  margin:20px auto;
+	}
+figure{
+	float: left;
+	padding:10px;
+	margin: auto 30px;
+		}
+figure img{
+  width:250px;
+  height: 250px;
+  padding:6px;
+  background:#999;
+  border-radius:20px;
+  -webkit-transition:-webkit-transform 0.9s ease-in-out 0.2s;
+  box-shadow: #00F 2px 2px 5px,
+  		 #00F -2px -2px 5px;
+}
+figure img:hover{
+	-webkit-transform:scale(1.2);
+	alignmnt-adjust:central;
+	-webkit-transform:rotate(720deg)
+	scale(2.2);
+	cursor:wait;
+}
+figcaption{
+  font-family:Broadway;
+  font-size: 20px;
+  background-color:#7CEE5D;
+  color:#F07A23;
+  text-align:center;
+  margin-top:4px;
+
+}
+footer{
+	clear:both;
+	padding-top:100px;
+}
+footer p{
+  font:1.6em Georgia, "Times New Roman", Time, serif;
+  color:#999;
+  margin:10px 8px;
+}
